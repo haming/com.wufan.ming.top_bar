@@ -1,0 +1,14 @@
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #525252;border-color: #525252;">
+  <div class="container-fluid">
+    <div class="row">
+      <ul class="nav nav-pills">
+        <li ng-repeat="companyName in companyName" style="background-color: #3e3e3e">
+          <a href="#" style="padding-right: 10px;padding-left: 10px;font-size: 22px;color: #9b9b9b">{{companyName}}</a>
+        </li>
+        <li ng-repeat="title in titles" style="background-color: #515151">
+          <a href="#" style="font-size: 16px;color: #9b9b9b;margin-top: 5px"><span class="{{title}}"></span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
